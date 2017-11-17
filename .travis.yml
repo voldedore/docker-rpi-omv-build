@@ -13,8 +13,7 @@ script:
   - >
     if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
       docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
-      #TAG=$(grep "ENV MYSQL_VERSION" Dockerfile | awk 'NF>1{print $NF}')
-      TAG=0.1
+      TAG=$(grep "ENV VERSION" Dockerfile | awk 'NF>1{print $NF}')
       docker tag voldedore/rpi-omv voldedore/rpi-omv:$TAG
       docker push voldedore/rpi-omv:$TAG
       docker push voldedore/rpi-omv
