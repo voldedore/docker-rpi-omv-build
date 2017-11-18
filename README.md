@@ -1,4 +1,4 @@
-# Dockerize OpenMediaVault for your Raspberry Pi 3
+# Dockerized OpenMediaVault for your Raspberry Pi 3
 
 [![Build Status](https://travis-ci.org/voldedore/docker-rpi-omv-build.svg?branch=master)](https://travis-ci.org/voldedore/docker-rpi-omv-build)
 
@@ -19,7 +19,7 @@ Please refer to https://github.com/voldedore/docker-rpi-omv to know how to use i
 ### Docker image
 
 * Tested and run on Raspberry Pi 3. Other Pi can also be able to use this image as well, but I didn't test it. Any feedback would be very appreciated.
-* Automatically build by awesome Travis CI, based on [this help](https://blog.hypriot.com/post/setup-simple-ci-pipeline-for-arm-images/) for ARM arch.
+* Automatically built by awesome Travis CI, based on [this help](https://blog.hypriot.com/post/setup-simple-ci-pipeline-for-arm-images/) for ARM arch.
 * Docker registry: docker.com
 
 ### OpenMediaVault
