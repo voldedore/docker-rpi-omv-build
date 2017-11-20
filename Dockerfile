@@ -2,7 +2,7 @@ FROM resin/rpi-raspbian
 
 LABEL maintainer="voldedore"
 
-ENV VERSION 0.2.0
+ENV VERSION 0.2.1
 
 # Add mirror for vietnam location
 RUN echo "deb http://mirrors.vinahost.vn/raspbian/raspbian jessie main contrib non-free rpi firmware" >> /etc/apt/sources.list
