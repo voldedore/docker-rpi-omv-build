@@ -31,5 +31,8 @@ RUN usermod -a -G users debian-transmission
 # Persistence volume:
 VOLUME ["/data"]
 
+# Keep settings thru update
+VOLUME ["/etc/openmediavault"]
+
 # Command
 CMD ["/bin/bash"]
