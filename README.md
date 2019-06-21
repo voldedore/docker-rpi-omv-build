@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/voldedore/docker-rpi-omv-build.svg?branch=master)](https://travis-ci.org/voldedore/docker-rpi-omv-build)
 
-Source build for docker image `voldedore/rpi-omv`
+Source build for docker image `voldedore/rpi-omv`.
+
+*I recently stopped maintaining this repo due to a lack of time and RPI is not a proper idea for NAS, it's slow and the solution is somehow 'unstable'.*
 
 ## Maintainer
 
